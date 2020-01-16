@@ -11,6 +11,7 @@ class App extends React.Component {
   };
 
   random10 = () => {
+    alert('Please type in a number 1-10')
     var random10 = Math.floor(Math.random() * 10) + 1;
     console.log(random10);
     this.setState({
@@ -20,6 +21,7 @@ class App extends React.Component {
   };
 
   random100 = () => {
+    alert('Please type in a number 1-100')
     var random100 = Math.floor(Math.random() * 100) + 1;
     console.log(random100);
     this.setState({
